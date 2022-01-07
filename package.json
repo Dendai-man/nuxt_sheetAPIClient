@@ -1,0 +1,32 @@
+{
+  "name": "GRASAGA",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.19.3",
+    "googleapis": "^39.2.0",
+    "net": "^1.0.2",
+    "nuxt": "^2.15.8",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "google-spreadsheet": "^3.2.0",
+    "node-sass": "^6.0.1",
+    "nuxt-google-sheets-parser": "^1.2.4",
+    "sass": "^1.45.0",
+    "sass-loader": "^10.2.0",
+    "style-loader": "^3.3.1"
+  }
+}
